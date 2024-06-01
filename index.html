@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mallisetty Surendra</title>
+    <title>Mallisetty Surendra - Professional Web Developer</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d533eeafcc.js" crossorigin="anonymous"></script>
@@ -193,10 +193,23 @@
             </div>
         </div>
     </section>
-    <section class="contact" id="contact">
+    
+   <section class="contact" id="contact">
         <h2>Contact Information</h2>
         <div class="container">
             <div class="contact-info">
+                <form action="contact.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Message"></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
                 <div class="contact-details">
                     <p>Email: <a href="mailto:surendra.malisetty123@gmail.com">surendra.malisetty123@gmail.com</a></p>
                     <p>Phone: <a href="tel:+91 9110721017">+91 9110721017</a></p>
@@ -205,7 +218,7 @@
                             <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
                             <li><a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
                             <li><a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
-                            <!-- Add more social media links as needed -->
+                            
                         </ul>
                     </div>
                 </div>
